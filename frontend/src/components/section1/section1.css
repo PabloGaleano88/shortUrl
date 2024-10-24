@@ -1,0 +1,37 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.link-form {
+  padding: 50px;
+  height: 100%;
+  margin-inline: 20px;
+}
+
+.smash {
+  margin-inline: 20px;
+  color: black;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  animation: smash 2s ease infinite;
+}
+@keyframes smash {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.6, 1);
+  }
+  50% {
+    transform: scale(1.1, 1);
+  }
+  75% {
+    transform: scale(0.95, 1);
+  }
+}

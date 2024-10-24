@@ -1,0 +1,120 @@
+.form-container {
+  box-shadow: 2px 2px 15px;
+  color: black;
+  border-radius: 20px;
+  height: 430px;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: start;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 500px;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0px;
+    color: whitesmoke;
+  }
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.input-wrapper:focus-within {
+  outline: solid 2px #00e676;
+}
+
+.prefix {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-right: none;
+}
+
+input {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 9px;
+  border: none;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-url {
+  width: 100%;
+}
+
+.radio-buttons-description {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+button {
+  align-self: center;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+  color: whitesmoke;
+  background-color: black;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 15px;
+  user-select: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(47, 47, 47);
+  }
+}
+
+.submit-button {
+  margin-top: 25px;
+}
+
+.css-tqkhgv-MuiFormGroup-root {
+  margin-top: 15px;
+}
+
+.result {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-1a8epmm-MuiCircularProgress-circle {
+  color: #00e676;
+}
+
+.show_url {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  label {
+    border: solid 2px #00e676;
+    border-radius: 15px;
+    padding: 10px;
+  }
+}
+
+.link-data {
+  margin-block: 15px;
+}

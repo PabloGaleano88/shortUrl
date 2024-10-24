@@ -1,0 +1,55 @@
+.testlogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: whitesmoke;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 500px;
+  color: black;
+  transform: translateX(500px);
+  z-index: 3;
+}
+.close-button {
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.testlogin.open {
+  animation: translationOpen 0.3s cubic-bezier(0, 0.76, 0.38, 0.81) forwards;
+}
+
+.testlogin.close {
+  animation: translationClose 0.3s cubic-bezier(0.87, 0.02, 0.18, 0.89) forwards;
+}
+
+.division {
+  margin-block: 20px;
+  background-color: rgb(172, 172, 172);
+  height: 2px;
+  width: 100%;
+}
+
+@keyframes translationOpen {
+  0% {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes translationClose {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+}

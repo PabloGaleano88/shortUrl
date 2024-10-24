@@ -1,0 +1,30 @@
+.redirect-text {
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redirect-urls {
+  margin-block: 20px;
+  justify-items: center;
+}
+
+.shorturl-link {
+  color: grey;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.originalurl-link {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.button-pushed {
+  background-color: gray;
+  &:hover {
+    background-color: gray;
+  }
+}
